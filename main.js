@@ -8,12 +8,12 @@ var givenName;
 
 givenName = "Tim";
 // Q: What is `givenName` set to right now?
-// A: syntax error, needs a 'var'.
+// A: syntax error, needs a 'var' in front.
 
 
 givenName = "JD";
 // Q: What is `givenName` set to right now?
-// A: syntax error, needs a 'var'.
+// A: syntax error, needs a 'var' in front.
 
 
 var greeting = "Hello, how are you?";
@@ -58,6 +58,8 @@ var instructorName;
 
 // Update the variables above so the expression reads correctly.
 // Answers Below:
+var yourName = "Lucio";
+var insructorName = "Jason";
 
 
 // Final Statement
