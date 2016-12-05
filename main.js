@@ -31,11 +31,11 @@ var low  = 10;
 
 var math = high - low;
 // Q: What is `math` set to?
-// A:
+// A: high - low
 
 math = high - "5";
 // Q: What is `math` set to?
-// A:
+// A: This is a syntax error. Without 'var' the rest of the line doesnt work. 
 
 
 /* =========================================================
