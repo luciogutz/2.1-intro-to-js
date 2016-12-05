@@ -8,12 +8,12 @@ var givenName;
 
 givenName = "Tim";
 // Q: What is `givenName` set to right now?
-// A: Tim
+// A: syntax error, needs a 'var'.
 
 
 givenName = "JD";
 // Q: What is `givenName` set to right now?
-// A: JD
+// A: syntax error, needs a 'var'.
 
 
 var greeting = "Hello, how are you?";
@@ -35,7 +35,7 @@ var math = high - low;
 
 math = high - "5";
 // Q: What is `math` set to?
-// A: This is a syntax error. Without 'var' the rest of the line doesnt work. 
+// A: This is a syntax error. Without 'var' the rest of the line doesnt work.
 
 
 /* =========================================================
@@ -49,7 +49,7 @@ var born = 1983;
 var today = 2015;
 
 // Answers Below:
-
+var timsAge = "Tim is " + today - born + " years old.";
 
 
 // Store some information following in variables.
